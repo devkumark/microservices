@@ -24,7 +24,7 @@ const App = () => {
 
   const handleApiCall = async (e) => {
     // const url = 'http://localhost:9999/'+e.target.name;
-    let url = 'http://3.91.90.32:32470/'+e.target.name
+    let url = 'http://13.127.113.12:32470/'+e.target.name
 
     displayData.url=url
     let options = {}
